@@ -1,0 +1,52 @@
+html {
+  margin: 0;
+}
+
+aside {
+    width: 30%;
+}
+
+#asideImg {
+  width: 80%;
+}
+
+.teamBlock {
+  display: flex;
+}
+
+ul {
+  margin-bottom: 20%;
+}
+
+ul a {
+  font-size: 2em;
+  text-decoration: none;
+  line-height: 4em;
+  align-items: center;
+  text-align: center;
+}
+
+ul a li {
+  box-shadow: 1px 1px 3px 2px lightgray;
+  padding: 3px 30px;
+  margin: 5px 0;
+}
+
+ul a:hover {
+  color: rgba(50,50,200, .4);
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  box-shadow: 1px 1px 5px 5px lightgray;
+
+}
+
+
+.feedbackLink {
+  font-size: .8em;
+}
