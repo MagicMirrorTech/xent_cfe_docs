@@ -58,6 +58,27 @@ MOBILE
 =====
 */
 
-/* @media query {
+@media only screen and (max-width: 800px) {
+    aside {
+        width: 50%;
+    }
 
-} */
+
+    ul {
+      padding-left: 0;
+    }
+
+    ul a {
+      font-size: 1.5em;
+      line-height: 2em;
+    }
+
+    ul a li {
+      padding: 3px 10px;
+      margin: 2px 0;
+    }
+
+
+
+
+}
