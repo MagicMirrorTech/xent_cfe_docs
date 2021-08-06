@@ -1,6 +1,39 @@
+
+/*
+  WHOLE Document
+ */
+
 html {
   margin: 0;
 }
+
+body {
+  margin-bottom: 5%;
+}
+
+/*
+  HEADER Container
+ */
+
+  .titleDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feedbackLinkContainer{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+/*
+  Img Container
+ */
+
+
+ .teamBlock {
+   display: flex;
+ }
+
 
 aside {
     width: 30%;
@@ -10,9 +43,10 @@ aside {
   width: 80%;
 }
 
-.teamBlock {
-  display: flex;
-}
+/*
+  MAIN Container
+ */
+
 
 ul {
   margin-bottom: 20%;
@@ -59,10 +93,18 @@ MOBILE
 */
 
 @media only screen and (max-width: 800px) {
-    aside {
-        width: 50%;
+
+    .titleDiv {
+      align-items: center;
     }
 
+    aside {
+        width: 60%;
+    }
+
+    #asideImg {
+      width: 95%;
+    }
 
     ul {
       padding-left: 0;
@@ -75,10 +117,18 @@ MOBILE
 
     ul a li {
       padding: 3px 10px;
-      margin: 2px 0;
+      margin: 10px 0;
     }
 
 
+    .feedbackLink {
+      align-self: center;
 
+    }
+
+    .feedbackLinkContainer {
+      display: block;
+      text-align: center;
+    }
 
 }
