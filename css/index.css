@@ -56,11 +56,15 @@ ul a {
   font-size: 2em;
   text-decoration: none;
   line-height: 2em;
-  align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
-ul a li {
+ul a img {
+  width: 10%;
+  margin-right: 10%;
+}
+
+ul a li{
   box-shadow: 1px 1px 3px 2px lightgray;
   padding: 3px 30px;
   margin: 5px 0;
