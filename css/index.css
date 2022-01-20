@@ -11,6 +11,10 @@ body {
   margin-bottom: 5%;
 }
 
+.banner {
+  background-color: lightgreen;
+}
+
 /*
   HEADER Container
  */
