@@ -12,8 +12,9 @@ body {
 }
 
 .banner {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
 }
+
 
 /*
   HEADER Container
@@ -69,7 +70,8 @@ ul a img {
   vertical-align: middle;
 }
 
-ul a li{
+ul a li
+{
   box-shadow: 1px 1px 3px 2px lightgray;
   padding: 3px 30px;
   margin: 5px 0;
@@ -92,6 +94,59 @@ li:hover {
 
 .feedbackLink {
   font-size: .8em;
+}
+
+#emailLinks
+{
+  font-size: 1em;
+}
+#emailLinks:hover
+{
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+#emailLinks img
+{
+  width: 10%;
+  height: 90%;
+  margin: auto 10% auto 0;
+}
+
+#emailLinks li
+{
+  display: flex;
+}
+
+#emailLinks span:last-child
+{
+  color: blue;
+}
+
+.tooltip
+{
+  position: relative !important;
+}
+
+
+
+
+/* Tooltip text */
+ .tooltiptext {
+  visibility: hidden;
+  width: 13%;
+  background-color: gray;
+  color: white !important;
+  text-align: center;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  /* top: -60%;
+  left: -35%; */
+  padding: 1%;
+  z-index: 1;
 }
 
 
